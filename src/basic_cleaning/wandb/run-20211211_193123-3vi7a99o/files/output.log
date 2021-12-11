@@ -1,0 +1,22 @@
+2021-12-11 19:31:25,967 Downloading artifact
+2021-12-11 19:31:27,742 Filter artifact into Min-Max Price
+2021-12-11 19:31:27,750 Convert last_review feature to Datetime
+2021-12-11 19:31:29,134 Logging artifact
+Traceback (most recent call last):
+  File "/home/src/basic_cleaning/run.py", line 108, in <module>
+    go(args)
+  File "/home/src/basic_cleaning/run.py", line 53, in go
+    run.log_artifact(artifact)
+  File "/opt/conda/envs/mlflow-2d74a3fe5b739a35fe7fa1f1025c70c15ecfe41c/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2080, in log_artifact
+    return self._log_artifact(artifact_or_path, name, type, aliases)
+  File "/opt/conda/envs/mlflow-2d74a3fe5b739a35fe7fa1f1025c70c15ecfe41c/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2201, in _log_artifact
+    self._assert_can_log_artifact(artifact)
+  File "/opt/conda/envs/mlflow-2d74a3fe5b739a35fe7fa1f1025c70c15ecfe41c/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2238, in _assert_can_log_artifact
+    artifact.name,
+  File "/opt/conda/envs/mlflow-2d74a3fe5b739a35fe7fa1f1025c70c15ecfe41c/lib/python3.9/site-packages/wandb/sdk/wandb_artifacts.py", line 232, in name
+    return self._logged_artifact.name
+  File "/opt/conda/envs/mlflow-2d74a3fe5b739a35fe7fa1f1025c70c15ecfe41c/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2470, in name
+    return self._assert_instance().name
+  File "/opt/conda/envs/mlflow-2d74a3fe5b739a35fe7fa1f1025c70c15ecfe41c/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2438, in _assert_instance
+    raise ValueError(
+ValueError: Must call wait() before accessing logged artifact properties
