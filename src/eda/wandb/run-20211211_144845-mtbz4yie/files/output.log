@@ -1,0 +1,92 @@
+Collecting pandas_profiling
+  Downloading pandas_profiling-3.1.0-py2.py3-none-any.whl (261 kB)
+     |████████████████████████████████| 261 kB 3.0 MB/s
+[?25hCollecting phik>=0.11.1
+  Downloading phik-0.12.0-cp39-cp39-macosx_10_13_x86_64.whl (653 kB)
+     |████████████████████████████████| 653 kB 8.1 MB/s
+[?25hRequirement already satisfied: numpy>=1.16.0 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from pandas_profiling) (1.21.4)
+Requirement already satisfied: tqdm>=4.48.2 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from pandas_profiling) (4.62.3)
+Requirement already satisfied: matplotlib>=3.2.0 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from pandas_profiling) (3.5.0)
+Collecting scipy>=1.4.1
+  Downloading scipy-1.7.3-cp39-cp39-macosx_10_9_x86_64.whl (33.2 MB)
+     |████████████████████████████████| 33.2 MB 15.5 MB/s
+[?25hRequirement already satisfied: markupsafe~=2.0.1 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from pandas_profiling) (2.0.1)
+Collecting pydantic>=1.8.1
+  Using cached pydantic-1.8.2-cp39-cp39-macosx_10_9_x86_64.whl (2.7 MB)
+Collecting htmlmin>=0.1.12
+  Downloading htmlmin-0.1.12.tar.gz (19 kB)
+Collecting joblib~=1.0.1
+  Using cached joblib-1.0.1-py3-none-any.whl (303 kB)
+Requirement already satisfied: jinja2>=2.11.1 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from pandas_profiling) (3.0.3)
+Collecting seaborn>=0.10.1
+  Using cached seaborn-0.11.2-py3-none-any.whl (292 kB)
+Requirement already satisfied: PyYAML>=5.0.0 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from pandas_profiling) (5.3.1)
+Collecting missingno>=0.4.2
+  Downloading missingno-0.5.0-py3-none-any.whl (8.8 kB)
+Collecting multimethod>=1.4
+  Downloading multimethod-1.6-py3-none-any.whl (9.4 kB)
+Collecting visions[type_image_path]==0.7.4
+  Downloading visions-0.7.4-py3-none-any.whl (102 kB)
+     |████████████████████████████████| 102 kB 15.2 MB/s
+[?25hRequirement already satisfied: requests>=2.24.0 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from pandas_profiling) (2.26.0)
+Requirement already satisfied: pandas!=1.0.0,!=1.0.1,!=1.0.2,!=1.1.0,>=0.25.3 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from pandas_profiling) (1.3.4)
+Collecting tangled-up-in-unicode==0.1.0
+  Downloading tangled_up_in_unicode-0.1.0-py3-none-any.whl (3.1 MB)
+     |████████████████████████████████| 3.1 MB 15.1 MB/s
+[?25hCollecting networkx>=2.4
+  Using cached networkx-2.6.3-py3-none-any.whl (1.9 MB)
+Requirement already satisfied: attrs>=19.3.0 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from visions[type_image_path]==0.7.4->pandas_profiling) (21.2.0)
+Collecting imagehash
+  Downloading ImageHash-4.2.1.tar.gz (812 kB)
+     |████████████████████████████████| 812 kB 8.3 MB/s
+[?25hRequirement already satisfied: Pillow in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from visions[type_image_path]==0.7.4->pandas_profiling) (8.4.0)
+Requirement already satisfied: cycler>=0.10 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from matplotlib>=3.2.0->pandas_profiling) (0.11.0)
+Requirement already satisfied: pyparsing>=2.2.1 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from matplotlib>=3.2.0->pandas_profiling) (3.0.6)
+Requirement already satisfied: python-dateutil>=2.7 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from matplotlib>=3.2.0->pandas_profiling) (2.8.2)
+Requirement already satisfied: kiwisolver>=1.0.1 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from matplotlib>=3.2.0->pandas_profiling) (1.3.2)
+Requirement already satisfied: setuptools-scm>=4 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from matplotlib>=3.2.0->pandas_profiling) (6.3.2)
+Requirement already satisfied: fonttools>=4.22.0 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from matplotlib>=3.2.0->pandas_profiling) (4.28.2)
+Requirement already satisfied: packaging>=20.0 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from matplotlib>=3.2.0->pandas_profiling) (21.3)
+Requirement already satisfied: pytz>=2017.3 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from pandas!=1.0.0,!=1.0.1,!=1.0.2,!=1.1.0,>=0.25.3->pandas_profiling) (2021.3)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from pydantic>=1.8.1->pandas_profiling) (4.0.1)
+Requirement already satisfied: six>=1.5 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from python-dateutil>=2.7->matplotlib>=3.2.0->pandas_profiling) (1.16.0)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from requests>=2.24.0->pandas_profiling) (1.26.7)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from requests>=2.24.0->pandas_profiling) (2021.10.8)
+Requirement already satisfied: charset-normalizer~=2.0.0 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from requests>=2.24.0->pandas_profiling) (2.0.8)
+Requirement already satisfied: idna<4,>=2.5 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from requests>=2.24.0->pandas_profiling) (3.3)
+Requirement already satisfied: setuptools in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from setuptools-scm>=4->matplotlib>=3.2.0->pandas_profiling) (57.0.0)
+Requirement already satisfied: tomli>=1.0.0 in /Users/samico/Documents/Udacity-MlOps/env/lib/python3.9/site-packages (from setuptools-scm>=4->matplotlib>=3.2.0->pandas_profiling) (1.2.2)
+Collecting PyWavelets
+  Downloading PyWavelets-1.2.0-cp39-cp39-macosx_10_13_x86_64.whl (4.4 MB)
+     |████████████████████████████████| 4.4 MB 4.8 MB/s
+[?25hUsing legacy 'setup.py install' for htmlmin, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for imagehash, since package 'wheel' is not installed.
+Installing collected packages: tangled-up-in-unicode, scipy, PyWavelets, networkx, multimethod, visions, seaborn, joblib, imagehash, pydantic, phik, missingno, htmlmin, pandas-profiling
+    Running setup.py install for imagehash ... [?25ldone
+[?25h    Running setup.py install for htmlmin ... [?25ldone
+[?25hSuccessfully installed PyWavelets-1.2.0 htmlmin-0.1.12 imagehash-4.2.1 joblib-1.0.1 missingno-0.5.0 multimethod-1.6 networkx-2.6.3 pandas-profiling-3.1.0 phik-0.12.0 pydantic-1.8.2 scipy-1.7.3 seaborn-0.11.2 tangled-up-in-unicode-0.1.0 visions-0.7.4
+[33mWARNING: You are using pip version 21.1.3; however, version 21.3.1 is available.
+[33mYou should consider upgrading via the '/Users/samico/Documents/Udacity-MlOps/env/bin/python3.9 -m pip install --upgrade pip' command.
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 19001 entries, 0 to 19999
+Data columns (total 16 columns):
+ #   Column                          Non-Null Count  Dtype
+---  ------                          --------------  -----
+ 0   id                              19001 non-null  int64
+ 1   name                            18994 non-null  object
+ 2   host_id                         19001 non-null  int64
+ 3   host_name                       18993 non-null  object
+ 4   neighbourhood_group             19001 non-null  object
+ 5   neighbourhood                   19001 non-null  object
+ 6   latitude                        19001 non-null  float64
+ 7   longitude                       19001 non-null  float64
+ 8   room_type                       19001 non-null  object
+ 9   price                           19001 non-null  int64
+ 10  minimum_nights                  19001 non-null  int64
+ 11  number_of_reviews               19001 non-null  int64
+ 12  last_review                     15243 non-null  datetime64[ns]
+ 13  reviews_per_month               15243 non-null  float64
+ 14  calculated_host_listings_count  19001 non-null  int64
+ 15  availability_365                19001 non-null  int64
+dtypes: datetime64[ns](1), float64(3), int64(7), object(5)
+memory usage: 2.5+ MB

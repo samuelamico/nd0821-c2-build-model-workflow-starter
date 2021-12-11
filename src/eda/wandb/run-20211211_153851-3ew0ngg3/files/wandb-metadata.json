@@ -1,0 +1,19 @@
+{
+    "os": "macOS-11.6-x86_64-i386-64bit",
+    "python": "3.9.9",
+    "heartbeatAt": "2021-12-11T18:38:53.267432",
+    "startedAt": "2021-12-11T18:38:51.585472",
+    "docker": null,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/Users/samico/Library/Jupyter/runtime/kernel-50944dd4-5912-44bf-9083-861fb62aa1fe.json"
+    ],
+    "state": "running",
+    "program": "src/eda/EDA.ipynb",
+    "root": "/Users/samico/Documents/Udacity-MlOps/nd0821-c2-build-model-workflow-starter-master",
+    "host": "MacBook-Pro-de-Samuel.local",
+    "username": "samico",
+    "executable": "/Users/samico/Documents/Udacity-MlOps/env/bin/python3.9"
+}
