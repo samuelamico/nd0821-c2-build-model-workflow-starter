@@ -6,6 +6,13 @@ to be retrained with the same cadence, necessitating an end-to-end pipeline that
 
 In this project you will build such a pipeline.
 
+## Project link
+https://wandb.ai/samico/nyc_airbnb?workspace=user-samico
+
+https://github.com/samuelamico/nd0821-c2-build-model-workflow-starter/tree/1.0.0
+
+https://github.com/samuelamico/nd0821-c2-build-model-workflow-starter
+
 ## Table of contents
 
 - [Introduction](#build-an-ML-Pipeline-for-Short-Term-Rental-Prices-in-NYC)
