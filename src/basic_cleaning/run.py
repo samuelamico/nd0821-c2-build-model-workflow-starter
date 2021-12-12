@@ -14,7 +14,7 @@ logger = logging.getLogger()
 
 def go(args):
 
-    run = wandb.init(project='udacity_airbnb',job_type="basic_cleaning")
+    run = wandb.init(job_type="basic_cleaning")
     run.config.update(args)
 
     # Download input artifact. This will also log that this script is using this
@@ -38,6 +38,10 @@ def go(args):
     # Convert last_review to datetime
     logger.info("Convert last_review feature to Datetime")
     raw_df['last_review'] = pd.to_datetime(raw_df['last_review'])
+
+    # Add to fix a failure
+    idx = raw_df['longitude'].between(-74.25, -73.50) & raw_df['latitude'].between(40.5, 41.2)
+    df = raw_df[idx].copy()
 
     raw_df.to_csv(args.output_artifact,index=False)
 
