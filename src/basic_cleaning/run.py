@@ -56,6 +56,8 @@ def go(args):
     logger.info("Logging artifact")
     run.log_artifact(artifact)
 
+    artifact.wait()
+
     #os.remove(args.output_artifact)
 
 
