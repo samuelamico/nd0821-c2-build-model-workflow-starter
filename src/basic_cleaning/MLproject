@@ -6,27 +6,27 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: ## ADD DESCRIPTION
+        description: Input CSV file to be cleaned
         type: string
 
       output_artifact:
-        description: ## ADD DESCRIPTION
+        description: Output CSV file after the data cleaning
         type: string
 
       output_type:
-        description: ## ADD DESCRIPTION
+        description: type of our artifcat
         type: string
 
       output_description:
-        description: ## ADD DESCRIPTION
+        description: Simple description for output file
         type: string
 
       min_price:
-        description: ## ADD DESCRIPTION
+        description: minimum price we agree by our bussines rule
         type: string
 
       max_price:
-        description: ## ADD DESCRIPTION
+        description: maximum price we agree by our bussines rule
         type: string
 
 
