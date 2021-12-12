@@ -56,7 +56,7 @@ def go(args):
     logger.info("Logging artifact")
     run.log_artifact(artifact)
 
-    os.remove(args.output_artifact)
+    #os.remove(args.output_artifact)
 
 
 if __name__ == "__main__":
@@ -94,14 +94,14 @@ if __name__ == "__main__":
 
     parser.add_argument(
         "--min_price", 
-        type=int,
+        type=float,
         help="Minimum Price per Night we want",
         required=True
     )
 
     parser.add_argument(
         "--max_price", 
-        type=int,
+        type=float,
         help="Maximum Price per Night we want",
         required=True
     )
