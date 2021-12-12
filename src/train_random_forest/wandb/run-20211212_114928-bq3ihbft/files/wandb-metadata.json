@@ -1,0 +1,31 @@
+{
+    "os": "Linux-5.10.47-linuxkit-x86_64-with-glibc2.10",
+    "python": "3.8.12",
+    "heartbeatAt": "2021-12-12T11:49:29.363616",
+    "startedAt": "2021-12-12T11:49:28.274168",
+    "docker": null,
+    "cpu_count": 6,
+    "cuda": null,
+    "args": [
+        "--trainval_artifact",
+        "clean_sample.csv:latest",
+        "--val_size",
+        "0.2",
+        "--random_seed",
+        "42",
+        "--stratify_by",
+        "neighbourhood_group",
+        "--rf_config",
+        "/home/outputs/2021-12-12/11-47-44/rf_config.json",
+        "--max_tfidf_features",
+        "5",
+        "--output_artifact",
+        "random_forest_export"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "run.py",
+    "host": "54bdec0025d1",
+    "username": "root",
+    "executable": "/opt/conda/envs/mlflow-cd3b4f52f7dead4ede9554d420a1b9da8d8db1e3/bin/python"
+}

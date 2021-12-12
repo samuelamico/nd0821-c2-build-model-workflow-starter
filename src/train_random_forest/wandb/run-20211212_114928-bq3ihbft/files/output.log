@@ -1,0 +1,19 @@
+2021-12-12 11:49:29,421 Downloading and reading the exported model
+2021-12-12 11:49:30,906 Minimum price: 10, Maximum price: 350
+2021-12-12 11:49:30,933 Preparing sklearn pipeline
+2021-12-12 11:49:30,934 Fitting
+2021-12-12 11:50:03,287 Evaluate
+Traceback (most recent call last):
+  File "run.py", line 319, in <module>
+    go(args)
+  File "run.py", line 85, in go
+    pred = sk_pipe.predict(X_val[processed_features])
+  File "/opt/conda/envs/mlflow-cd3b4f52f7dead4ede9554d420a1b9da8d8db1e3/lib/python3.8/site-packages/sklearn/utils/metaestimators.py", line 120, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)
+  File "/opt/conda/envs/mlflow-cd3b4f52f7dead4ede9554d420a1b9da8d8db1e3/lib/python3.8/site-packages/sklearn/pipeline.py", line 418, in predict
+    Xt = transform.transform(Xt)
+  File "/opt/conda/envs/mlflow-cd3b4f52f7dead4ede9554d420a1b9da8d8db1e3/lib/python3.8/site-packages/sklearn/compose/_column_transformer.py", line 557, in transform
+    self._check_n_features(X, reset=False)
+  File "/opt/conda/envs/mlflow-cd3b4f52f7dead4ede9554d420a1b9da8d8db1e3/lib/python3.8/site-packages/sklearn/base.py", line 365, in _check_n_features
+    raise ValueError(
+ValueError: X has 11 features, but ColumnTransformer is expecting 15 features as input.
