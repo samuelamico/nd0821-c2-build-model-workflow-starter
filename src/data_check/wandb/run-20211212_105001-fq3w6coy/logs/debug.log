@@ -1,0 +1,55 @@
+2021-12-12 10:50:01,537 INFO    MainThread:3634 [wandb_setup.py:_flush():69] setting env: {'run_group': 'development', 'project': 'nyc_airbnb'}
+2021-12-12 10:50:01,538 WARNING MainThread:3634 [wandb_setup.py:_flush():69] could not save program above cwd: /opt/conda/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/bin/pytest
+2021-12-12 10:50:01,539 INFO    MainThread:3634 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-12-12 10:50:01,540 INFO    MainThread:3634 [wandb_init.py:_log_setup():334] Logging user logs to /home/src/data_check/wandb/run-20211212_105001-fq3w6coy/logs/debug.log
+2021-12-12 10:50:01,541 INFO    MainThread:3634 [wandb_init.py:_log_setup():335] Logging internal logs to /home/src/data_check/wandb/run-20211212_105001-fq3w6coy/logs/debug-internal.log
+2021-12-12 10:50:01,542 INFO    MainThread:3634 [wandb_init.py:init():367] calling init triggers
+2021-12-12 10:50:01,543 INFO    MainThread:3634 [wandb_init.py:init():372] wandb.init called with sweep_config: {}
+config: {}
+2021-12-12 10:50:01,544 INFO    MainThread:3634 [wandb_init.py:init():413] wandb.init() called when a run is still active
+2021-12-12 10:50:04,197 INFO    MainThread:3634 [wandb_run.py:_atexit_cleanup():1446] got exitcode: 0
+2021-12-12 10:50:04,201 INFO    MainThread:3634 [wandb_run.py:_restore():1418] restore
+2021-12-12 10:50:04,202 INFO    MainThread:3634 [redirect.py:uninstall():232] uninstall start
+2021-12-12 10:50:04,203 INFO    MainThread:3634 [redirect.py:_stop():287] _stop: stdout
+2021-12-12 10:50:04,204 INFO    MainThread:3634 [redirect.py:_stop():293] _stop closed: stdout
+2021-12-12 10:50:04,204 INFO    stdout    :3634 [redirect.py:_pipe_relay():129] relay done saw last write: stdout
+2021-12-12 10:50:04,206 INFO    stdout    :3634 [redirect.py:_pipe_relay():145] relay done done: stdout
+2021-12-12 10:50:04,206 INFO    MainThread:3634 [redirect.py:_stop():299] _stop joined: stdout
+2021-12-12 10:50:04,207 INFO    MainThread:3634 [redirect.py:_stop():301] _stop rd closed: stdout
+2021-12-12 10:50:04,208 INFO    MainThread:3634 [redirect.py:uninstall():236] uninstall done
+2021-12-12 10:50:04,209 INFO    MainThread:3634 [redirect.py:uninstall():232] uninstall start
+2021-12-12 10:50:04,210 INFO    MainThread:3634 [redirect.py:_stop():287] _stop: stderr
+2021-12-12 10:50:04,211 INFO    MainThread:3634 [redirect.py:_stop():293] _stop closed: stderr
+2021-12-12 10:50:04,211 INFO    stderr    :3634 [redirect.py:_pipe_relay():129] relay done saw last write: stderr
+2021-12-12 10:50:04,213 INFO    stderr    :3634 [redirect.py:_pipe_relay():145] relay done done: stderr
+2021-12-12 10:50:04,214 INFO    MainThread:3634 [redirect.py:_stop():299] _stop joined: stderr
+2021-12-12 10:50:04,214 INFO    MainThread:3634 [redirect.py:_stop():301] _stop rd closed: stderr
+2021-12-12 10:50:04,215 INFO    MainThread:3634 [redirect.py:uninstall():236] uninstall done
+2021-12-12 10:50:04,630 INFO    MainThread:3634 [wandb_run.py:_wait_for_finish():1568] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 726
+  total_bytes: 726
+}
+
+2021-12-12 10:50:06,637 INFO    MainThread:3634 [wandb_run.py:_wait_for_finish():1568] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 726
+  total_bytes: 1567
+}
+
+2021-12-12 10:50:08,647 INFO    MainThread:3634 [wandb_run.py:_wait_for_finish():1568] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 1567
+  total_bytes: 1567
+}
+
+2021-12-12 10:50:09,733 INFO    MainThread:3634 [wandb_run.py:_show_files():1790] logging synced files
